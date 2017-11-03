@@ -1,0 +1,36 @@
+{
+  "name": "rss-reader",
+  "version": "1.0.0",
+  "description": "RSS feed reader app with React and Express",
+  "main": "server.js",
+  "repository": "https://github.com/lenaggar/rss-reader.git",
+  "author": "Mahmoud <naggar218@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "node .",
+    "server:dev": "./node_modules/.bin/nodemon .",
+    "build": "./node_modules/.bin/webpack",
+    "build:watch:dev": "./node_modules/.bin/webpack-dev-server"
+  },
+  "dependencies": {
+    "axios": "^0.17.0",
+    "express": "^4.16.2",
+    "xmljson": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-compat": "^2.1.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0",
+    "jest": "^21.2.1",
+    "nodemon": "^1.12.1",
+    "opn-cli": "^3.1.0"
+  },
+  "browserslist": [
+    "> 1%"
+  ]
+}

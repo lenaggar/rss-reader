@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb",
+  "plugins": ["compat"],
+  "rules": {
+    "comma-dangle": ["off", "never"],
+    "semi": [2, "never"],
+    "no-unexpected-multiline": 2,
+    "compat/compat": 2
+  },
+  "env": {
+    "jest": true
+  }
+}
