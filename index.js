@@ -2,6 +2,7 @@ const express = require('express')
 const path = require('path')
 const axios = require('axios')
 const parser = require('xmljson').to_json
+const opn = require('opn')
 
 const PORT = 7000
 const PUBLIC = path.resolve(__dirname, 'public')
@@ -48,5 +49,6 @@ app.get('*', (request, response) => {
 
 // start server
 app.listen(PORT, () => {
+  opn(`http://localhost:${PORT}`)
   console.log(` ~ app listening on port: ${PORT}`) // eslint-disable-line
 })
