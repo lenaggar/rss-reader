@@ -7,7 +7,8 @@
   "author": "Mahmoud <naggar218@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "yarn build & node .",
+    "start": "npm-run-all --parallel build start:server",
+    "start:server": "node .",
     "start:server:dev": "nodemon .",
     "build": "webpack --env=prod",
     "start:client:dev": "node ./srcServer.js"
@@ -46,6 +47,7 @@
     "html-webpack-plugin": "^2.30.1",
     "jest": "^21.2.1",
     "nodemon": "^1.12.1",
+    "npm-run-all": "^4.1.1",
     "prop-types": "^15.6.0",
     "react-hot-loader": "^3.1.1",
     "redux-devtools-extension": "^2.13.2",
@@ -57,7 +59,5 @@
     "webpack-hot-middleware": "^2.20.0",
     "webpack-module-hot-accept": "^1.0.5"
   },
-  "browserslist": [
-    "> 1%"
-  ]
+  "browserslist": ["> 1%"]
 }

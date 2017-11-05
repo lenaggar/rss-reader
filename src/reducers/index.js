@@ -1,10 +1,17 @@
 import { combineReducers } from 'redux'
 
-import { subscriptions, addFeedIsLoading, addFeedHasErrored, activeFeed } from './feedReducers'
+import {
+  subscriptions,
+  subscriptionsList,
+  addFeedIsLoading,
+  addFeedHasErrored,
+  activeFeed
+} from './feedReducers'
 
 export default combineReducers({
   db: combineReducers({
-    subscriptions
+    subscriptions,
+    subscriptionsList
   }),
   ui: combineReducers({
     addFeedIsLoading,

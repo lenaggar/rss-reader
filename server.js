@@ -12,12 +12,21 @@ const INDEX = path.resolve(DIST, 'index.html')
 const app = express()
 
 // middleware
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*')
+  res.header('Access-Control-Allow-Methods', 'GET')
+  res.header('Access-Control-Allow-Headers', 'Content-Type')
+
+  next()
+})
 app.use(express.static(DIST))
 
 // routing
 app.get('/parse-feed', (request, response) => {
+  const { url, name } = request.query
+
   axios
-    .get(request.query.url)
+    .get(url)
     .then((res) => {
       const xml = res.data
 
@@ -25,7 +34,7 @@ app.get('/parse-feed', (request, response) => {
         if (!err) {
           response.json({
             success: true,
-            feed: Object.assign(feed, { id: uuidv4() })
+            feed: Object.assign(feed, { id: uuidv4(), desiredName: name })
           })
         }
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import AddFeedForm from './AddFeedForm'
+import SubscriptionsMenu from './SubscriptionsMenu'
+import FeedItems from './FeedItems'
 
 const App = () => (
   <div className="container">
@@ -7,19 +9,7 @@ const App = () => (
       <div className="title">
         <h1>Rocket RSS</h1>
       </div>
-      <div className="menu">
-        <ul>
-          <li>1dafadg</li>
-          <li>2asdfsadfdfs</li>
-          <li className="active">3asdfasdfad</li>
-          <li>1dafadg</li>
-          <li>2asdfsadfdfs</li>
-          <li>3asdfasdfad</li>
-          <li>1dafadg</li>
-          <li>2asdfsadfdfs</li>
-          <li>3asdfasdfad</li>
-        </ul>
-      </div>
+      <SubscriptionsMenu />
     </div>
     <div className="main">
       <div className="add-feed">
@@ -30,19 +20,7 @@ const App = () => (
           <AddFeedForm />
         </div>
       </div>
-      <div className="active-feed">
-        <ul>
-          <li>1dafadg</li>
-          <li>2asdfsadfdfs</li>
-          <li>3asdfasdfad</li>
-          <li>1dafadg</li>
-          <li>2asdfsadfdfs</li>
-          <li>3asdfasdfad</li>
-          <li>1dafadg</li>
-          <li>2asdfsadfdfs</li>
-          <li>3asdfasdfad</li>
-        </ul>
-      </div>
+      <FeedItems />
     </div>
   </div>
 )

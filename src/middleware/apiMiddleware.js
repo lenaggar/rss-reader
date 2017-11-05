@@ -1,9 +1,8 @@
 // custom middleware to handle api calls
 import axios from 'axios'
 
-const BASE_URL = `${window.location.origin}/parse-feed`
-
-console.log(BASE_URL) // eslint-disable-line no-console
+// const BASE_URL = `${window.location.origin}/parse-feed`
+const BASE_URL = 'http://localhost:7000/parse-feed'
 
 const apiMiddleware = ({ dispatch }) => next => (action) => {
   if (action.type !== 'API') {
@@ -14,23 +13,20 @@ const apiMiddleware = ({ dispatch }) => next => (action) => {
 
   dispatch({ type: payload.apiStart })
 
-  axios.get(`${BASE_URL}?url=${payload.url}`).then(res => console.log(res)) // eslint-disable-line no-console
+  axios
+    .get(`${BASE_URL}?url=${payload.url}&name=${payload.desiredName}`)
+    .then((res) => {
+      if (!res.data.success) {
+        throw Error(res.statusText)
+      }
+      dispatch({ type: payload.apiDone })
+      dispatch({ type: payload.success, feed: res.data.feed })
+    })
+    .catch((err) => {
+      dispatch({ type: payload.apiDone })
+      dispatch({ type: payload.error, err })
+    })
 
-  // fetch(BASE_URL + payload.url, options) // eslint-disable-line
-  //   .then((res) => {
-  //     if (!res.ok) {
-  //       throw Error(res.statusText)
-  //     }
-  //     return res.json()
-  //   })
-  //   .then((data) => {
-  //     dispatch({ type: payload.apiDone })
-  //     dispatch({ type: payload.success, data })
-  //   })
-  //   .catch((error) => {
-  //     dispatch({ type: payload.apiDone })
-  //     dispatch({ type: payload.error, error })
-  //   })
   return undefined
 }
 

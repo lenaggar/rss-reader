@@ -27,22 +27,22 @@ module.exports = env => ({
         test: /\.jsx?$/,
         include: SRC,
         exclude: /node_modules/,
-        loader: 'babel-loader'
+        use: 'babel-loader'
       },
       Object.assign(
         { test: /\.css$/ },
         env === 'dev'
-          ? { loaders: ['style-loader', 'css-loader'] }
+          ? { use: ['style-loader', 'css-loader'] }
           : {
             use: ExtractTextWebpackPlugin.extract({
               fallback: 'style-loader',
-              loaders: ['css-loader']
+              use: ['css-loader']
             })
           }
       ),
       {
         test: /\.html$/,
-        loader: 'html-loader'
+        use: 'html-loader'
       }
     ]
   },
@@ -71,12 +71,14 @@ module.exports = env => ({
       // new BundleAnalyzerPlugin(),
       new ExtractTextWebpackPlugin('styles.css'),
       new webpack.DefinePlugin({
-        'process.env.NODE_ENV': '"production"'
+        'process.env': {
+          NODE_ENV: JSON.stringify('production')
+        }
       }),
       new UglifyJsWebpackPlugin({
         sourceMap: true
       }),
-      new webpack.NoErrorsPlugin(),
+      // new webpack.NoEmitOnErrorsPlugin(),
       new CompressionWebpackPlugin({
         asset: '[path].gz[query]',
         algorithm: 'gzip',

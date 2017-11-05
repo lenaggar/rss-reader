@@ -1,8 +1,18 @@
 import React from 'react'
+import { connect } from 'react-redux'
+import PropTypes from 'prop-types'
+
+import { addFeed } from './../actions/creators'
 
 class AddFeedForm extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.addFeed = this.addFeed.bind(this)
+  }
+
   addFeed(feed) {
-    console.log(feed)
+    this.props.addFeed(feed)
   }
 
   render() {
@@ -51,4 +61,12 @@ class AddFeedForm extends React.Component {
   }
 }
 
-export default AddFeedForm
+AddFeedForm.propTypes = {
+  addFeed: PropTypes.func.isRequired
+}
+
+const mapDispatch = dispatch => ({
+  addFeed: feed => dispatch(addFeed(feed))
+})
+
+export default connect(undefined, mapDispatch)(AddFeedForm)

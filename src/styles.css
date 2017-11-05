@@ -38,11 +38,28 @@
 .menu li {
   margin: 2px 0;
   padding: 15px;
+  position: relative;
   /* border: 1px solid cyan; */
   color: #f8f5e3;
   font-weight: 500;
   background-color: #34495e;
   cursor: pointer;
+}
+
+.menu .remove-feed {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  color: #f8f5e3;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #3498db;
+  border: 0;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
 }
 
 .menu li.active {
@@ -116,7 +133,13 @@
   cursor: pointer;
 }
 
-.add-feed input[type="submit"]:active {
+.add-feed input[type="submit"]:hover,
+.menu .remove-feed:hover {
+  background-color: #287db1;
+}
+
+.add-feed input[type="submit"]:active,
+.menu .remove-feed:active {
   background-color: #0f3e5e;
 }
 
@@ -137,6 +160,17 @@
 .active-feed {
   border: 1px solid #e4e2d1;
   background-color: #fff;
+  min-height: 300px;
+}
+
+.active-feed .message {
+  padding: 20px 30px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  line-height: 1.3em
 }
 
 .active-feed li {
