@@ -60,5 +60,7 @@ app.get('*', (request, response) => {
 // start server
 app.listen(PORT, () => {
   opn(`http://localhost:${PORT}`)
+    .then(() => {})
+    .catch(() => {})
   console.log(` ~ app listening on port: ${PORT}`) // eslint-disable-line
 })

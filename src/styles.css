@@ -118,7 +118,8 @@
   height: 35px;
 }
 
-.add-feed input[type="text"] {
+.add-feed input[type="text"],
+.add-feed input[type="url"] {
   margin-top: 3px;
   width: 100%;
   border: 1px solid #ccc;
@@ -158,6 +159,7 @@
 }
 
 .active-feed {
+  position: relative;
   border: 1px solid #e4e2d1;
   background-color: #fff;
   min-height: 300px;
@@ -180,4 +182,18 @@
 
 .active-feed li:nth-child(even) {
   background-color: rgba(0, 0, 0, 0.06);
+}
+
+.checking-modal {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #999;
+  border-radius: 5px;
+  top: 30px;
+  right: 25%;
+  left: 25%;
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 200px;
 }

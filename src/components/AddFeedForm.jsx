@@ -34,6 +34,7 @@ class AddFeedForm extends React.Component {
               <input
                 id="name"
                 type="text"
+                required
                 ref={(node) => {
                   feedName = node
                 }}
@@ -45,7 +46,8 @@ class AddFeedForm extends React.Component {
               Feed URL:
               <input
                 id="url"
-                type="text"
+                type="url"
+                required
                 ref={(node) => {
                   feedUrl = node
                 }}

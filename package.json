@@ -7,7 +7,7 @@
   "author": "Mahmoud <naggar218@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "npm-run-all --parallel build start:server",
+    "start": "npm-run-all --serial build start:server",
     "start:server": "node .",
     "start:server:dev": "nodemon .",
     "build": "webpack --env=prod",
