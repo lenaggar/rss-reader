@@ -2,12 +2,14 @@
   "extends": "airbnb",
   "plugins": ["compat"],
   "rules": {
+    "import/no-extraneous-dependencies": ["off"],
     "comma-dangle": ["off", "never"],
     "semi": [2, "never"],
     "no-unexpected-multiline": 2,
     "compat/compat": 2
   },
   "env": {
+    "node": true,
     "browser": true,
     "jest": true
   }

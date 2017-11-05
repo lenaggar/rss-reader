@@ -2,16 +2,17 @@ const express = require('express')
 const path = require('path')
 const axios = require('axios')
 const parser = require('xmljson').to_json
+const uuidv4 = require('uuid/v4')
 const opn = require('opn')
 
 const PORT = 7000
-const PUBLIC = path.resolve(__dirname, 'public')
-const INDEX = path.resolve(PUBLIC, 'index.html')
+const DIST = path.resolve(__dirname, 'dist')
+const INDEX = path.resolve(DIST, 'index.html')
 
 const app = express()
 
 // middleware
-app.use(express.static(PUBLIC))
+app.use(express.static(DIST))
 
 // routing
 app.get('/parse-feed', (request, response) => {
@@ -24,7 +25,7 @@ app.get('/parse-feed', (request, response) => {
         if (!err) {
           response.json({
             success: true,
-            feed
+            feed: Object.assign(feed, { id: uuidv4() })
           })
         }
 
@@ -37,7 +38,7 @@ app.get('/parse-feed', (request, response) => {
     .catch((err) => {
       response.json({
         success: false,
-        errorMessage: 'Cannot download this RSS feed, please try later.',
+        errorMessage: 'Cannot download this RSS feed, please try again later.',
         error: err
       })
     })
