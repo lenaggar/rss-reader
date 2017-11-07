@@ -17,14 +17,20 @@ const apiMiddleware = ({ dispatch }) => next => (action) => {
     .get(`${BASE_URL}?url=${payload.url}&name=${payload.desiredName}`)
     .then((res) => {
       if (!res.data.success) {
-        throw Error(res.statusText)
+        throw Error(res.data.errorMessage)
       }
       dispatch({ type: payload.apiDone })
-      dispatch({ type: payload.success, feed: res.data.feed })
+      dispatch({
+        type: payload.success,
+        feed: res.data.feed
+      })
     })
     .catch((err) => {
       dispatch({ type: payload.apiDone })
-      dispatch({ type: payload.error, err })
+      dispatch({
+        type: payload.error,
+        errorMessage: err.message
+      })
     })
 
   return undefined

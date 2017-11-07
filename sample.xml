@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Smashing Magazine</title>
+	<atom:link href="https://www.smashingmagazine.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.smashingmagazine.com</link>
+	<description>For Professional Web Designers and Developers</description>
+	<lastBuildDate>Mon, 06 Nov 2017 12:28:02 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.9</generator>
+	<item>
+		<title>Right-To-Left Development In Mobile Design</title>
+		<link>https://www.smashingmagazine.com/2017/11/right-to-left-mobile-design/</link>
+		<comments>https://www.smashingmagazine.com/2017/11/right-to-left-mobile-design/#comments</comments>
+		<pubDate>Mon, 06 Nov 2017 10:04:21 +0000</pubDate>
+		<dc:creator><![CDATA[Robert Dodis &#38; Yvette Mosiichuk]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Global Web Design]]></category>
+		<category><![CDATA[User Interaction]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=298006</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>The Middle Eastern market is growing at a rapid pace, and, as a result, demand for IT products is also booming in the region. What is peculiar, though, is that Middle Eastern countries require design that is not only compatible with their needs and comfortable for their users, but that is also suitable to their language standards, making a serious adaptation process very important. Given that most languages spoken in the Middle East are written and read from right to left (such as <a href="https://www.smashingmagazine.com/2014/03/taking-a-closer-look-at-arabic-calligraphy/">Arabic</a>, Hebrew, and Urdu), developers often face a range of problems when creating products in those languages.</p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/11/right-to-left-mobile-design/"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/22-Right-to-Left-Development-for-Mobile-Design-800w-opt-2.png" width="500" height="280" alt="The Arabic version of Facebook.com, with a reversed order of the site’s elements" /></a></figure>
+
+<p>Although this might seem like not that big of a deal, IT development for right-to-left (RTL) languages entails paying attention to a number of peculiarities. This is only further complicated by the fact that the RTL market is relatively new, and not many resources are available to help developers.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/11/right-to-left-mobile-design/">Right-To-Left Development In Mobile Design</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/11/right-to-left-mobile-design/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Level-Up Email Campaigns With Customer Journey Mapping</title>
+		<link>https://www.smashingmagazine.com/2017/11/email-customer-journey-mapping/</link>
+		<comments>https://www.smashingmagazine.com/2017/11/email-customer-journey-mapping/#comments</comments>
+		<pubDate>Fri, 03 Nov 2017 08:41:59 +0000</pubDate>
+		<dc:creator><![CDATA[Yuri Vedenin]]></dc:creator>
+				<category><![CDATA[UX Design]]></category>
+		<category><![CDATA[Customer Experience]]></category>
+		<category><![CDATA[Product Strategy]]></category>
+		<category><![CDATA[User Experience]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=300407</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>I became a huge fan of <a href="https://www.smashingmagazine.com/2015/01/all-about-customer-journey-mapping/">customer journey mapping</a> the first time I was introduced to it. And after a few years of mapping, tweaking and presenting maps, my team and I started looking for other more exotic uses of this technique. Well, seek and ye shall find.</p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/11/email-customer-journey-mapping/"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/customer-journey-map-example-800w-opt.png" alt="an example of customer journey map." width="500" height="297"  /></a></figure>
+
+<p>Customer journey mapping is a visualization technique that helps marketing specialists, user experience designers, and product and business owners see the journey people take when interacting with products and services. It is a great way to put on your customer's shoes and see where your business fails to deliver a great user experience.</p>
+<p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/11/email-customer-journey-mapping/">Level-Up Email Campaigns With Customer Journey Mapping</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/11/email-customer-journey-mapping/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Understanding The Vary Header</title>
+		<link>https://www.smashingmagazine.com/2017/11/understanding-vary-header/</link>
+		<comments>https://www.smashingmagazine.com/2017/11/understanding-vary-header/#comments</comments>
+		<pubDate>Thu, 02 Nov 2017 12:35:41 +0000</pubDate>
+		<dc:creator><![CDATA[Andrew Betts]]></dc:creator>
+				<category><![CDATA[Coding]]></category>
+		<category><![CDATA[Caching]]></category>
+		<category><![CDATA[Headers]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=300681</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>The Vary HTTP header is sent in billions of HTTP responses every day. But its use has never fulfilled its original vision, and many developers misunderstand what it does or don't even realize that their web server is sending it. With the coming of the Client Hints, Variants and Key specifications, varied responses are getting a fresh start.</p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/11/understanding-vary-header/"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/content-negog-800w-opt.png" width="500" height="173" alt="Illustration of content-negotiated conversation between user and bank" /></a></figure>
+
+<p>In principle, a URL represents not a web page, but a conceptual resource, like your bank statement. Imagine that you want to see your bank statement: You go to <code>bank.com</code> and send a <code>GET</code> request for <code>/statement</code>. So far so good, but you didn't say what format you want the statement in. This is why your browser will also include something like <code>Accept: text/html</code> in your request. In theory, this means you could say <code>Accept: text/csv</code> instead and get the same resource in a different format.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/11/understanding-vary-header/">Understanding The Vary Header</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/11/understanding-vary-header/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>SmashingConf 2018: Fetch Those Early-Bird Tickets! 🇬🇧 🇺🇸 🇨🇦</title>
+		<link>https://www.smashingmagazine.com/2017/10/smashingconf-2018-fetch-those-early-bird-tickets/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/smashingconf-2018-fetch-those-early-bird-tickets/#respond</comments>
+		<pubDate>Tue, 31 Oct 2017 13:09:54 +0000</pubDate>
+		<dc:creator><![CDATA[Vitaly Friedman]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[SmashingConf]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=300992</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>Great conferences are all about learning new skills and making new connections. That’s why we’ve set up a couple of new adventures for <strong>SmashingConf 2018</strong> — just practical sessions, new formats, new lightning talks, evening sessions and genuine, interesting conversations — with a dash of friendly networking! Taking place in London, San Francisco, Toronto. Tickets? <a href="https://www.smashingmagazine.com/?p=300992#tickets">Glad you asked!</a></p>
+
+<p><a href="https://www.smashingmagazine.com/2017/10/smashingconf-2018-fetch-those-early-bird-tickets/"><img class="conf__visual" srcset="
+https://www.smashingmagazine.com/wp-content/uploads/2017/10/smashingconf-london-banner-500-opt.png 500w,
+https://www.smashingmagazine.com/wp-content/uploads/2017/10/smashingconf-london-banner-800-opt.png 800w"
+src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/smashingconf-london-banner-500-opt.png" width="500" height="222" style="border-radius: 8px;" alt="A queen cat welcoming you a Smashing Conference in London, February 7 to 8, 2018" /></a><br /><em><a href="https://smashingconf.com">SmashingConf London</a>: everything web performance. Feb 7–8.</em></p>
+
+<p>Performance matters. Next year, we’re thrilled to venture to London for our brand new conference fully dedicated to <strong>everything front-end performance</strong>. Dealing with ads, third-party scripts, A/B testing, HTTP/2, debugging, JAM stack, PWA, web fonts loading, memory/CPU perf, service workers. Plus lightning community talks.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/smashingconf-2018-fetch-those-early-bird-tickets/">SmashingConf 2018: Fetch Those Early-Bird Tickets! 🇬🇧 🇺🇸 🇨🇦</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/smashingconf-2018-fetch-those-early-bird-tickets/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Inspiring Desktop Wallpapers To Make November Even More Colorful (2017 Edition)</title>
+		<link>https://www.smashingmagazine.com/2017/10/desktop-wallpaper-calendars-november-2017/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/desktop-wallpaper-calendars-november-2017/#comments</comments>
+		<pubDate>Tue, 31 Oct 2017 07:27:44 +0000</pubDate>
+		<dc:creator><![CDATA[Cosima Mielke]]></dc:creator>
+				<category><![CDATA[Graphics]]></category>
+		<category><![CDATA[Wallpapers]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=300104</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>November is a rather gray month in many parts of the world, so what could be better as some colorful inspiration to start it off with the right foot? To <strong>tickle your creativity</strong>, artists and designers from across the globe once again challenged their artistic abilities and designed desktop wallpapers for you to indulge in. Wallpapers that are a bit more distinctive as the usual crowd, bound to breathe some fresh life into your routine.</p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/10/desktop-wallpaper-calendars-november-2017/"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/nov-17-colorful-autumn-preview-500px.png" width="500" height="281" alt="Desktop Wallpaper Calendars November 2017" /></a></figure>
+
+<p>All artworks in this collection come in versions with and without a calendar for <strong>November 2017</strong>, so it’s up to you to decide if you want to have the month always in sight or just some distraction-free inspiration. A big thank-you to everyone who shared their wallpapers this time around! Enjoy!</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/desktop-wallpaper-calendars-november-2017/">Inspiring Desktop Wallpapers To Make November Even More Colorful (2017 Edition)</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/desktop-wallpaper-calendars-november-2017/feed/</wfw:commentRss>
+		<slash:comments>20</slash:comments>
+		</item>
+		<item>
+		<title>A Swift Transition From iOS To macOS Development</title>
+		<link>https://www.smashingmagazine.com/2017/10/from-ios-to-macos-development/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/from-ios-to-macos-development/#comments</comments>
+		<pubDate>Mon, 30 Oct 2017 08:15:35 +0000</pubDate>
+		<dc:creator><![CDATA[Marc Vandehey]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[Swift]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=300475</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>Today started just like any other day. You sat down at your desk, took a sip of coffee and opened up Xcode to start a new project. But wait! The similarities stop there. Today, we will try to build for a different platform! Don’t be afraid. I know you are comfortable there on your iOS island, knocking out iOS applications, but <strong>today begins a brand new adventure</strong>. Today is the day we head on over to macOS development, a dark and scary place that you know nothing about.</p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/10/from-ios-to-macos-development/"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/01-A-Swift-Transition-from-iOS-to-macOS-Development-preview-opt.jpg" width="500" height="360" alt="To create a new macOS project in Xcode, open New Project, hit the macOS icon at the top, the select Cocoa App, and press Next" /></a></figure>
+
+<p>The good news is that developing for macOS using Swift has a lot more in common with iOS development than you realize. To prove this, I will walk you through building a simple screen-annotation application. Once we complete it, you will realize how easy it is to build applications for macOS.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/from-ios-to-macos-development/">A Swift Transition From iOS To macOS Development</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/from-ios-to-macos-development/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Quick Wins For Improving Performance And Security Of Your Website</title>
+		<link>https://www.smashingmagazine.com/2017/10/improving-performance-security/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/improving-performance-security/#comments</comments>
+		<pubDate>Thu, 26 Oct 2017 12:31:21 +0000</pubDate>
+		<dc:creator><![CDATA[Jonas Krummenacher]]></dc:creator>
+				<category><![CDATA[Coding]]></category>
+		<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=298897</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>When it comes to building and maintaining a website, one has to take a ton of things into consideration. However, in an era when people want to see results fast, while at the same time knowing that their information online is secure, all webmasters should strive for a) improving the performance of their website, and b) increasing their website's security.</p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/10/improving-performance-security"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/chrome-dev-tools-500w-opt.png" width="500" height="207" alt="Quick Wins For Improving Performance And Security Of Your Website" /></a></figure>
+
+<p>Both of these goals are vital in order to run a successful website. So, we've put together a list of five technologies you should consider implementing to <strong>improve both the performance and security of your website</strong>.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/improving-performance-security/">Quick Wins For Improving Performance And Security Of Your Website</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/improving-performance-security/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>The Role Of Storyboarding In UX Design</title>
+		<link>https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/#comments</comments>
+		<pubDate>Wed, 25 Oct 2017 12:37:02 +0000</pubDate>
+		<dc:creator><![CDATA[Nick Babich]]></dc:creator>
+				<category><![CDATA[UX Design]]></category>
+		<category><![CDATA[Illustrations]]></category>
+		<category><![CDATA[User Experience]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=299999</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>To come up with a proper design, <strong>UX designers use a lot of different research techniques</strong>, such as contextual inquires, interviews and workshops. They summarize research findings into user stories and user flows and communicate their thinking and solutions to the teams with artifacts such as personas and wireframes. But somewhere in all of this, there are real people for whom the products are being designed for.</p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/10/storyboarding-ux-design"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/Storyboarding-In-UX-Design-500w-opt.jpg" width="500" height="241" alt="Storyboarding In UX Design" /></a></figure>
+
+<p>In order to create better products, designers must understand what’s going on in the user’s world and understand how their products can make the user's life better. And that’s where storyboards come in.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/">The Role Of Storyboarding In UX Design</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>The Front-End Performance Challenge: Make Your Site Blazingly Fast And Win Some Smashing Prizes</title>
+		<link>https://www.smashingmagazine.com/2017/10/front-end-performance-challenge/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/front-end-performance-challenge/#comments</comments>
+		<pubDate>Tue, 24 Oct 2017 13:24:19 +0000</pubDate>
+		<dc:creator><![CDATA[Cosima Mielke]]></dc:creator>
+				<category><![CDATA[Coding]]></category>
+		<category><![CDATA[Performance]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=300495</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>Not too long ago, front-end performance was a mere afterthought. Something that was postponed to the end of a project and that didn’t go much beyond minification, asset optimization, and maybe a few adjustments on the server’s <code>config</code> file. But things have changed.</p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/10/front-end-performance-challenge"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/performance-challenge-500w-opt.png" width="500" height="368" alt="The Front-End Performance Challenge: Make Your Site Blazingly Fast And Win Some Smashing Prizes" /></a></figure>
+
+<p>We have become more conscious of the <a href="https://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/">impact performance has on the user experience</a>, and the tools and techniques that help us cater for snappy experiences have improved and are widely supported now as well.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/front-end-performance-challenge/">The Front-End Performance Challenge: Make Your Site Blazingly Fast And Win Some Smashing Prizes</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/front-end-performance-challenge/feed/</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+		</item>
+		<item>
+		<title>We’ve Got A Lil’ Announcement To Make: Rachel Andrew Is SmashingMag’s New Editor-In-Chief</title>
+		<link>https://www.smashingmagazine.com/2017/10/rachel-andrew-editor-in-chief/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/rachel-andrew-editor-in-chief/#comments</comments>
+		<pubDate>Tue, 24 Oct 2017 09:47:05 +0000</pubDate>
+		<dc:creator><![CDATA[Vitaly Friedman]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=300562</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>Sometimes things evolve faster than you think. Something that started as a simple WordPress blog back in September 2006, has evolved into a little Smashing universe — with books, eBooks, conferences, workshops, consultancy, job board and, most recently, <a href="https://staging.smashingmagazine.com/">56 fancy cats</a> (upcoming, also known as <em>Smashing Membership</em>).</p>
+
+<p>We have a wonderful team making it all happen, but <strong>every project requires attention and focus</strong> and every project desperately needs time to evolve and flourish and improve.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/rachel-andrew-editor-in-chief/">We’ve Got A Lil’ Announcement To Make: Rachel Andrew Is SmashingMag’s New Editor-In-Chief</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/rachel-andrew-editor-in-chief/feed/</wfw:commentRss>
+		<slash:comments>16</slash:comments>
+		</item>
+		<item>
+		<title>Stop Designing For Only 85% Of Users: Nailing Accessibility In Design</title>
+		<link>https://www.smashingmagazine.com/2017/10/nailing-accessibility-design/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/nailing-accessibility-design/#comments</comments>
+		<pubDate>Mon, 23 Oct 2017 12:35:34 +0000</pubDate>
+		<dc:creator><![CDATA[Tom Graham &#38; André Gonçalves]]></dc:creator>
+				<category><![CDATA[UX Design]]></category>
+		<category><![CDATA[Accessibility]]></category>
+		<category><![CDATA[Colors]]></category>
+		<category><![CDATA[User Experience]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=298855</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>As designers, we like to think we are solution-based. But whereas we wouldn’t hesitate to call out a museum made inaccessible by a lack of wheelchair ramps, many of us still remain somewhat oblivious to flaws in our user interfaces.</p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/10/nailing-accessibility-design"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/accessibility-colors-500w-preview-opt.png" width="500" height="288" alt="Stop Designing For Only 85% Of Users: Nailing Accessibility In Design" /></a></figure>
+
+<p>Poor visual design, in particular, can be a barrier to a good user experience. Whereas disability advocacy has long <strong>focused on ways to help the user adapt</strong> to the situation, we have reached a point where users expect products to be optimized for a broad range of needs.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/nailing-accessibility-design/">Stop Designing For Only 85% Of Users: Nailing Accessibility In Design</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/nailing-accessibility-design/feed/</wfw:commentRss>
+		<slash:comments>15</slash:comments>
+		</item>
+		<item>
+		<title>Combining Graphical And Voice Interfaces For A Better User Experience</title>
+		<link>https://www.smashingmagazine.com/2017/10/combining-graphical-voice-interfaces/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/combining-graphical-voice-interfaces/#comments</comments>
+		<pubDate>Thu, 19 Oct 2017 12:27:43 +0000</pubDate>
+		<dc:creator><![CDATA[David Pasztor]]></dc:creator>
+				<category><![CDATA[UX Design]]></category>
+		<category><![CDATA[Accessibility]]></category>
+		<category><![CDATA[Interfaces]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[User Experience]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=300239</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>With​ ​the​ ​appearance​ ​of​ ​voice​ ​user​ ​interfaces,​ ​AI​ ​and​ ​chatbots,​ ​<strong>what is​ ​the​ ​future​ ​of​ ​graphical​ ​user​ ​interfaces</strong> (GUIs)?​ ​Don’t​ ​worry: Despite​ ​some dark​ ​predictions​,​ ​GUIs​ ​will​ ​stay​ ​around​ ​for​ ​many​ ​years​ ​to​ ​come. Let​ ​me​ ​share​ ​my​ ​personal, humble predictions​ ​and​ ​introduce​ ​multi-modal​ ​interfaces as​ ​a​ ​more​ ​human​ ​way​ ​of​ ​communication​ ​between​ ​user​ ​and​ machine.</p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/10/combining-graphical-voice-interfaces"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/nuru-chatbot-500w-opt.png" width="500" height="343" alt="Combining Graphical And Voice Interfaces For A Better User Experience" /></a></figure>
+
+<p>The​ ​old​ ​wisdom​ ​that​ ​a​ ​picture​ ​is​ ​worth​ ​a​ ​thousand​ ​words​ ​​is​ ​still​ ​true​ ​today.​ ​Our​ ​brain​ ​is​ ​an incredible​ ​image​-​processing​ ​machine.​ ​We​ ​can​ ​understand​ ​complex​ ​information​ ​faster​ ​when we​ ​see​ ​it​ ​visually.​ ​According​ ​to​ ​studies,​ ​even​ ​when​ ​we​ ​talk​ ​with​ ​someone​ ​else,​ n​​onverbal communication​​ ​represents​ ​two third​s ​of​ ​the​ ​conversation.​ ​According​ ​to​ ​​other​ ​studies​​, ​we​ absorb most​ ​information​ ​from​ ​our​ ​sight​ ​(83%​ ​sight,​ ​11%​ ​hearing,​ ​3%​ ​smell,​ ​2%​ ​touch​ ​and​ ​1% taste).​ ​In​ ​short,​ ​our​ ​eyes​ ​are​ our ​primary​ ​sensors​.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/combining-graphical-voice-interfaces/">Combining Graphical And Voice Interfaces For A Better User Experience</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/combining-graphical-voice-interfaces/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Confessions Of An Impostor</title>
+		<link>https://www.smashingmagazine.com/2017/10/confessions-impostor-syndrome/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/confessions-impostor-syndrome/#comments</comments>
+		<pubDate>Wed, 18 Oct 2017 12:05:39 +0000</pubDate>
+		<dc:creator><![CDATA[Denys Mishunov]]></dc:creator>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Techniques]]></category>
+		<category><![CDATA[Workflow]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=300353</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>Five years ago, when, for the first time ever, I was invited to speak at one of the best front-end conferences in Europe, I had quite <strong>a mixture of feelings</strong>. Obviously, I was incredibly proud and happy: I had never had a chance to do this before for a diverse audience of people with different skillsets. But the other feelings I had were quite destructive.</p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/10/confessions-impostor-syndrome"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/impostor-syndrome-intro-preview-opt.png" width="500" height="549" alt="Confessions Of An Impostor" /></a></figure>
+
+<p>I sincerely could not understand how I could be interesting to anyone: Even though I had been working in front-end for many years by then, I was very silent in the community. I hadn’t contributed to popular frameworks or libraries. I was just average. So, the feeling of a mistake having been made, that <strong>I did not deserve to be at that conference</strong>, was very strong, and I could not believe that I would indeed be speaking until I had bought my plane ticket.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/confessions-impostor-syndrome/">Confessions Of An Impostor</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/confessions-impostor-syndrome/feed/</wfw:commentRss>
+		<slash:comments>18</slash:comments>
+		</item>
+		<item>
+		<title>Naming Things In CSS Grid Layout</title>
+		<link>https://www.smashingmagazine.com/2017/10/naming-things-css-grid-layout/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/naming-things-css-grid-layout/#comments</comments>
+		<pubDate>Tue, 17 Oct 2017 12:28:38 +0000</pubDate>
+		<dc:creator><![CDATA[Rachel Andrew]]></dc:creator>
+				<category><![CDATA[Coding]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[CSS Grid]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=300162</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>When first learning how to use Grid Layout, you might begin by addressing positions on the grid by their line number. This requires that you keep track of where various lines are on the grid, and also be aware of the fact the line numbers reverse if your site is displayed for a right-to-left language.</p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/10/naming-things-css-grid-layout"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/grid-cells-preview-500w-opt.png" width="500" height="276" alt="Naming Things In CSS Grid Layout" /></a></figure>
+
+<p>Built on top of this system of lines, however, are methods that enable the naming of lines and even grid areas. Using these methods enables easier placement of items by name rather than number, but also brings additional possibilities when creating systems for layout. In this article, I’ll take an in-depth look at the <strong>various ways to name lines and areas in CSS Grid Layout</strong>, and some of the interesting possibilities this creates.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/naming-things-css-grid-layout/">Naming Things In CSS Grid Layout</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/naming-things-css-grid-layout/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>Monthly Web Development Update 10/2017: CSS Grid, CAA Pitfalls, And Image Optimization</title>
+		<link>https://www.smashingmagazine.com/2017/10/monthly-web-development-update-10-2017/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/monthly-web-development-update-10-2017/#comments</comments>
+		<pubDate>Fri, 13 Oct 2017 09:56:11 +0000</pubDate>
+		<dc:creator><![CDATA[Anselm Hannemann]]></dc:creator>
+				<category><![CDATA[Web Development Reading List]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=300068</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p><em>Editor’s Note: Welcome to this month’s web development update. Anselm has summarized <strong>the most important happenings in the web community</strong> that have taken place over the past few weeks in one handy list for you. Enjoy!</em></p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/10/monthly-web-development-update-10-2017/"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/slack-grid-500px-opt.png" width="500" height="346" alt="Web Development Update October 2017" /></a></figure>
+
+<p>As web developers, we’re working in a very diverse environment: We have countless options to specialize in, but it’s impossible to keep up with everything. This week I read an article from a developer who realized that even though he has been building stuff for the web for over seven years, sometimes he just doesn’t understand what’s going on: “<strong>I’m slamming my keyboard in frustration</strong> as another mysterious error appears in my build script,” he writes.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/monthly-web-development-update-10-2017/">Monthly Web Development Update 10/2017: CSS Grid, CAA Pitfalls, And Image Optimization</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/monthly-web-development-update-10-2017/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>Don’t Let Your Brain Deceive You: Avoiding Bias In Your UX Feedback</title>
+		<link>https://www.smashingmagazine.com/2017/10/avoid-bias-ux-feedback/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/avoid-bias-ux-feedback/#comments</comments>
+		<pubDate>Thu, 12 Oct 2017 12:34:41 +0000</pubDate>
+		<dc:creator><![CDATA[Hunter Jensen]]></dc:creator>
+				<category><![CDATA[UX Design]]></category>
+		<category><![CDATA[Statistics]]></category>
+		<category><![CDATA[User Experience]]></category>
+		<category><![CDATA[User Research]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=299564</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>You know that user feedback is crucial &#8212; after all, <strong>your users will decide whether your app succeeds or not</strong> &#8212; but how do you know whether users are being fair and objective in their feedback?</p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/10/avoid-bias-ux-feedback"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/nngroup-500w-preview-opt.png" width="500" height="351" alt="Don’t Let Your Brain Deceive You: Avoiding Bias In Your UX Feedback" /></a></figure>
+
+<p>We can tell you: They won’t be. All of your users will be giving you biased feedback. They can’t help it.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/avoid-bias-ux-feedback/">Don’t Let Your Brain Deceive You: Avoiding Bias In Your UX Feedback</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/avoid-bias-ux-feedback/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Implementing A Service Worker For Single-Page App WordPress Sites</title>
+		<link>https://www.smashingmagazine.com/2017/10/service-worker-single-page-application-wordpress-sites/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/service-worker-single-page-application-wordpress-sites/#comments</comments>
+		<pubDate>Wed, 11 Oct 2017 13:47:19 +0000</pubDate>
+		<dc:creator><![CDATA[Leonardo Losoviz]]></dc:creator>
+				<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[Service Workers]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=299918</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>With so many JavaScript frameworks around, <strong>single-page application</strong> (SPA) websites seem to be all the rage nowadays. However, an SPA architecture has the drawback of having a slower first-page load than a server-based application, because all of the JavaScript templates used to render the HTML view must be downloaded before the required view can be generated.</p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/10/service-worker-single-page-application-wordpress-sites"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/chrome-network-tab-500px-opt.png" width="500" height="404" alt="Implementing A Service Worker For Single-Page App WordPress Sites" /></a></figure
+
+<p>Enter service workers. Through service workers, all framework and application code to output the HTML view can be precached in the browser, thus speeding up both the first meaningful paint and the time to interact. In this article, I will share my experience with implementing service workers for PoP, an SPA website that runs on WordPress, with the goal of speeding up the loading time and providing offline-first capabilities.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/service-worker-single-page-application-wordpress-sites/">Implementing A Service Worker For Single-Page App WordPress Sites</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/service-worker-single-page-application-wordpress-sites/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Building A Large-Scale Design System: How A Design System Was Created For The U.S. Government (Case Study)</title>
+		<link>https://www.smashingmagazine.com/2017/10/large-scale-design-system-us-government/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/large-scale-design-system-us-government/#comments</comments>
+		<pubDate>Mon, 09 Oct 2017 12:42:32 +0000</pubDate>
+		<dc:creator><![CDATA[Maya Benari]]></dc:creator>
+				<category><![CDATA[Design]]></category>
+		<category><![CDATA[UX Design]]></category>
+		<category><![CDATA[Design Patterns]]></category>
+		<category><![CDATA[Design Systems]]></category>
+		<category><![CDATA[Pattern Libraries]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=266207</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p><strong>Editor's Note</strong>: <em>We’ve been closely working with Maya on this article, and we’re happy to see the final result now being published on 18F. We highly encourage more teams to share the lessons they learned when building <a href="https://www.smashingmagazine.com/tag/design-systems/">design systems</a> or <a href="https://www.smashingmagazine.com/tag/pattern-libraries/">pattern libraries</a>, and we’re always happy to support them in writing, editing and shaping that article. This post is a re-post of Maya’s final article.</em></p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/10/large-scale-design-system-us-government"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/large-scale-design-systems-grid-preview-opt.png" width="500" height="231" alt="Building A Large-Scale Design System: How A Design System Was Created For The U.S. Government (Case Study)" /></a></figure>
+
+<p>Today, there are nearly 30,000 U.S. federal websites with almost no consistency between them. Between the hundreds of thousands of government employees working in technology, there’s nothing in common with how these websites are built or maintained.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/large-scale-design-system-us-government/">Building A Large-Scale Design System: How A Design System Was Created For The U.S. Government (Case Study)</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/large-scale-design-system-us-government/feed/</wfw:commentRss>
+		<slash:comments>18</slash:comments>
+		</item>
+		<item>
+		<title>CSS Grid Challenge: Winners and Templates</title>
+		<link>https://www.smashingmagazine.com/2017/10/css-grid-challenge-2017-winners/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/css-grid-challenge-2017-winners/#comments</comments>
+		<pubDate>Fri, 06 Oct 2017 12:55:18 +0000</pubDate>
+		<dc:creator><![CDATA[Cosima Mielke]]></dc:creator>
+				<category><![CDATA[Coding]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[CSS Grid]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=299872</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p><a href="https://www.smashingmagazine.com/2017/06/building-production-ready-css-grid-layout/">CSS Grid</a> is becoming the <strong>new layout standard</strong> for the web, and we are all still experimenting with what we can achieve with it. Some folks assume that CSS Grid is just a replacement for table layouts or <a href="https://www.smashingmagazine.com/2016/11/css-grids-flexbox-box-alignment-new-layout-standard/">Flexbox</a> &#8212; but that's simply not true. Some also think that they can use CSS Grid to replicate more advanced print layouts, which brings us all closer to what's possible. Obviously print isn't web, but we can experiment with some of the techniques from print on the web, too.</p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/10/css-grid-challenge-2017-winners"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/the-deck-500w-opt.png" width="500" height="393" alt="CSS Grid Challenge 2017: The Winners" /></a></figure>
+
+<p>One of the main reasons behind the idea of the <a href="https://www.smashingmagazine.com/2017/09/the-css-grid-challenge-join-in/">CSS Grid Challenge</a> was to have some starting points for layouts, and show what can be achieved with CSS Grids today. Well, we received some many great submissions that it was really hard to choose <em>the</em> one winner — there are so many submissions who deserve to win first place.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/css-grid-challenge-2017-winners/">CSS Grid Challenge: Winners and Templates</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/css-grid-challenge-2017-winners/feed/</wfw:commentRss>
+		<slash:comments>15</slash:comments>
+		</item>
+		<item>
+		<title>Designing A Realistic Chronograph Watch In Sketch</title>
+		<link>https://www.smashingmagazine.com/2017/10/realistic-chronograph-watch-sketch/</link>
+		<comments>https://www.smashingmagazine.com/2017/10/realistic-chronograph-watch-sketch/#comments</comments>
+		<pubDate>Thu, 05 Oct 2017 11:57:42 +0000</pubDate>
+		<dc:creator><![CDATA[Nikola Lazarević]]></dc:creator>
+				<category><![CDATA[Graphics]]></category>
+		<category><![CDATA[Sketch]]></category>
+		<category><![CDATA[Tutorials]]></category>
+
+		<guid isPermaLink="false">https://www.smashingmagazine.com/?p=298197</guid>
+		<description><![CDATA[<table width="650">
+	<tr>
+		<td width="650">
+			<div style="width:650px;">
+				<img src="http://statisches.auslieferung.commindo-media-ressourcen.de/advertisement.gif" alt="" border="0"/>
+				<br/>
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=1" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=1" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=2" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=2" border="0" alt=""/>
+				</a>
+				&nbsp;
+				<a href="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=target&collection=smashing-rss&position=3" target="_blank">
+					<img src="http://auslieferung.commindo-media-ressourcen.de/random.php?mode=image&collection=smashing-rss&position=3" border="0" alt=""/>
+				</a>
+			</div>
+		</td>
+	</tr>
+</table><p>If you’re into wristwatches, like me, and are also a fan of the <a href="https://www.smashingmagazine.com/tag/sketch/">Sketch app</a> (or just want to get better at it), then this is the tutorial for you. In it, you will learn how to create a very realistic and detailed vector illustration of a watch using basic shapes, layer styles and cool Sketch functions such as “Rotate Copies” and “Make Grid.”</p>
+
+<figure><a href="https://www.smashingmagazine.com/2017/10/realistic-chronograph-watch-sketch"><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/10/autavia-tutorial-sketch-preview-opt.png" width="500" height="350" alt="Designing A Realistic Chronograph Watch In Sketch" /></a></figure>
+
+<p>You'll learn how to apply multiple shadows and how to use gradients, and you will see how objects can be rotated and duplicated in special ways. No bitmap images will be used, which means you will be able to easily adapt the final image to different sizes and resolutions.</p><p>The post <a rel="nofollow" href="https://www.smashingmagazine.com/2017/10/realistic-chronograph-watch-sketch/">Designing A Realistic Chronograph Watch In Sketch</a> appeared first on <a rel="nofollow" href="https://www.smashingmagazine.com">Smashing Magazine</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.smashingmagazine.com/2017/10/realistic-chronograph-watch-sketch/feed/</wfw:commentRss>
+		<slash:comments>18</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -3,6 +3,7 @@ import {
   ADD_FEED_API_START,
   ADD_FEED_API_DONE,
   ADD_FEED_ERROR,
+  ADD_FEED_ERROR_DISMISSED,
   ACTIVE_FEED_CHANGED,
   REMOVE_FEED
 } from './../actions/types'
@@ -11,7 +12,9 @@ export const subscriptions = (state = {}, action) => {
   const newState = Object.assign({}, state)
   switch (action.type) {
     case ADD_FEED_SUCCESS:
-      return Object.assign({}, state, { [action.feed.id]: action.feed })
+      return Object.assign({}, state, {
+        [action.feed.id]: action.feed
+      })
 
     case REMOVE_FEED:
       delete newState[action.payload.id]
@@ -25,7 +28,14 @@ export const subscriptions = (state = {}, action) => {
 export const subscriptionsList = (state = [], action) => {
   switch (action.type) {
     case ADD_FEED_SUCCESS:
-      return [{ id: action.feed.id, desiredName: action.feed.desiredName }, ...state]
+      return [
+        {
+          id: action.feed.id,
+          url: action.feed.url,
+          desiredName: action.feed.desiredName
+        },
+        ...state
+      ]
 
     case REMOVE_FEED:
       return state.filter(obj => obj.id !== action.payload.id)
@@ -48,11 +58,29 @@ export const addFeedIsLoading = (state = false, action) => {
   }
 }
 
-export const addFeedHasErrored = (state = false, action) => {
-  if (action.type === ADD_FEED_ERROR) {
-    return true
+export const addFeedHasErrored = (
+  state = {
+    didntIt: false,
+    errorMessage: ''
+  },
+  action
+) => {
+  switch (action.type) {
+    case ADD_FEED_ERROR:
+      return {
+        didntIt: true,
+        errorMessage: action.errorMessage
+      }
+
+    case ADD_FEED_ERROR_DISMISSED:
+      return {
+        didntIt: false,
+        errorMessage: ''
+      }
+
+    default:
+      return state
   }
-  return state
 }
 
 export const activeFeed = (state = null, action) => {

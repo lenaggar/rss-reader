@@ -2,26 +2,41 @@ import React from 'react'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 
-const FeedItems = ({ activeFeed, subscriptions, addFeedIsLoading }) => {
-  const checking = (
-    <div className="checking-modal">
-      <p>Checking . . .</p>
-    </div>
-  )
+import { dismissError } from './../actions/creators'
+
+const FeedItems = ({
+  activeFeed,
+  subscriptions,
+  addFeedIsLoading,
+  error,
+  errorMessage,
+  dismissErr
+}) => {
+  if (error) {
+    return (
+      <div className="active-feed">
+        <div className="modal error-modal">
+          <h2>ERROR ! ! !</h2>
+          <p>{errorMessage}</p>
+          <input type="button" className="error-btn" onClick={dismissErr} value="Dismiss" />
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="active-feed">
       {activeFeed ? (
         <ul>
-          {Object.values(subscriptions[activeFeed].rss.channel.item).map(item => (
-            <li key={item.guid._}>
+          {subscriptions[activeFeed].items.map(item => (
+            <li key={item.id}>
               <h3>
                 <a target="blank" href={item.link}>
                   {item.title}
                 </a>
               </h3>
-              <p>Creator: {item['dc:creator']}</p>
-              <p>Categories: [{Object.values(item.category).join(', ')}]</p>
+              <p>Creator: {item.creator}</p>
+              <p>Categories: [{item.category.join(', ')}]</p>
             </li>
           ))}
         </ul>
@@ -31,7 +46,11 @@ const FeedItems = ({ activeFeed, subscriptions, addFeedIsLoading }) => {
         </div>
       )}
 
-      {addFeedIsLoading && checking}
+      {addFeedIsLoading && (
+        <div className="modal checking-modal">
+          <p>Checking . . .</p>
+        </div>
+      )}
     </div>
   )
 }
@@ -39,13 +58,22 @@ const FeedItems = ({ activeFeed, subscriptions, addFeedIsLoading }) => {
 FeedItems.propTypes = {
   subscriptions: PropTypes.arrayOf(PropTypes.object).isRequired,
   activeFeed: PropTypes.string.isRequired,
-  addFeedIsLoading: PropTypes.bool.isRequired
+  addFeedIsLoading: PropTypes.bool.isRequired,
+  error: PropTypes.bool.isRequired,
+  errorMessage: PropTypes.string.isRequired,
+  dismissErr: PropTypes.func.isRequired
 }
 
 const mapState = state => ({
   subscriptions: state.db.subscriptions,
   activeFeed: state.ui.activeFeed,
-  addFeedIsLoading: state.ui.addFeedIsLoading
+  addFeedIsLoading: state.ui.addFeedIsLoading,
+  error: state.ui.addFeedHasErrored.didntIt,
+  errorMessage: state.ui.addFeedHasErrored.errorMessage
 })
 
-export default connect(mapState)(FeedItems)
+const mapDispatch = dispatch => ({
+  dismissErr: () => dispatch(dismissError())
+})
+
+export default connect(mapState, mapDispatch)(FeedItems)

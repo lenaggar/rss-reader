@@ -11,6 +11,10 @@ class AddFeedForm extends React.Component {
     this.addFeed = this.addFeed.bind(this)
   }
 
+  // shouldComponentUpdate(nextProps, nextState) {
+
+  // }
+
   addFeed(feed) {
     this.props.addFeed(feed)
   }
@@ -23,8 +27,14 @@ class AddFeedForm extends React.Component {
       <form
         onSubmit={(e) => {
           e.preventDefault()
-          const feed = { name: feedName.value, url: feedUrl.value }
-          this.addFeed(feed)
+          if (this.props.subscriptionsList.map(sub => sub.url).includes(feedUrl.value)) {
+            alert("Can't add this one, you're already subscribed to it!") // eslint-disable-line
+          } else {
+            this.addFeed({
+              name: feedName.value,
+              url: feedUrl.value
+            })
+          }
         }}
       >
         <div className="fieldset">
@@ -64,11 +74,20 @@ class AddFeedForm extends React.Component {
 }
 
 AddFeedForm.propTypes = {
-  addFeed: PropTypes.func.isRequired
+  addFeed: PropTypes.func.isRequired,
+  subscriptionsList: PropTypes.arrayOf(PropTypes.object)
 }
+
+AddFeedForm.defaultProps = {
+  subscriptionsList: []
+}
+
+const mapState = state => ({
+  subscriptionsList: state.db.subscriptionsList
+})
 
 const mapDispatch = dispatch => ({
   addFeed: feed => dispatch(addFeed(feed))
 })
 
-export default connect(undefined, mapDispatch)(AddFeedForm)
+export default connect(mapState, mapDispatch)(AddFeedForm)

@@ -1,4 +1,10 @@
-import { API, ASYNC_ACTION_TYPE, ACTIVE_FEED_CHANGED, REMOVE_FEED } from './types'
+import {
+  API,
+  ASYNC_ACTION_TYPE,
+  ACTIVE_FEED_CHANGED,
+  REMOVE_FEED,
+  ADD_FEED_ERROR_DISMISSED
+} from './types'
 
 export const addFeed = feed => ({
   type: API,
@@ -19,4 +25,8 @@ export const changeActiveFeed = id => ({
 export const removeFeed = id => ({
   type: REMOVE_FEED,
   payload: { id }
+})
+
+export const dismissError = () => ({
+  type: ADD_FEED_ERROR_DISMISSED
 })

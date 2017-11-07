@@ -57,7 +57,10 @@
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-middleware": "^1.12.0",
     "webpack-hot-middleware": "^2.20.0",
-    "webpack-module-hot-accept": "^1.0.5"
+    "webpack-module-hot-accept": "^1.0.5",
+    "xml2js": "^0.4.19"
   },
-  "browserslist": ["> 1%"]
+  "browserslist": [
+    "> 1%"
+  ]
 }
