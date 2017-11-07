@@ -72,8 +72,6 @@ const mapState = state => ({
   errorMessage: state.ui.addFeedHasErrored.errorMessage
 })
 
-const mapDispatch = dispatch => ({
-  dismissErr: () => dispatch(dismissError())
-})
+const feedItems = connect(mapState, { dismissErr: dismissError })(FeedItems)
 
-export default connect(mapState, mapDispatch)(FeedItems)
+export default feedItems

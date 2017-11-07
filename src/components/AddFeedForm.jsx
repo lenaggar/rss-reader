@@ -86,8 +86,6 @@ const mapState = state => ({
   subscriptionsList: state.db.subscriptionsList
 })
 
-const mapDispatch = dispatch => ({
-  addFeed: feed => dispatch(addFeed(feed))
-})
+const newFeedForm = connect(mapState, { addFeed })(AddFeedForm)
 
-export default connect(mapState, mapDispatch)(AddFeedForm)
+export default newFeedForm

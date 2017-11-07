@@ -69,9 +69,9 @@ const mapState = state => ({
   activeFeed: state.ui.activeFeed
 })
 
-const mapDispatch = dispatch => ({
-  changeActiveFeed: id => dispatch(changeActiveFeed(id)),
-  removeFeed: id => dispatch(removeFeed(id))
-})
+const subsMenu = connect(mapState, {
+  changeActiveFeed,
+  removeFeed
+})(SubscriptionsMenu)
 
-export default connect(mapState, mapDispatch)(SubscriptionsMenu)
+export default subsMenu
