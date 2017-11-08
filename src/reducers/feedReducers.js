@@ -9,12 +9,10 @@ import {
 } from './../actions/types'
 
 export const subscriptions = (state = {}, action) => {
-  const newState = Object.assign({}, state)
+  const newState = { ...state }
   switch (action.type) {
     case ADD_FEED_SUCCESS:
-      return Object.assign({}, state, {
-        [action.feed.id]: action.feed
-      })
+      return { ...state, [action.feed.id]: action.feed }
 
     case REMOVE_FEED:
       delete newState[action.payload.id]

@@ -2,6 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 
+import { getActiveFeedId, getSubscriptionsList } from './../reducers'
 import { changeActiveFeed, removeFeed } from './../actions/creators'
 
 class SubscriptionsMenu extends React.Component {
@@ -53,20 +54,19 @@ class SubscriptionsMenu extends React.Component {
 }
 
 SubscriptionsMenu.propTypes = {
-  subscriptionsList: PropTypes.arrayOf(PropTypes.object),
+  subscriptionsList: PropTypes.arrayOf(PropTypes.object).isRequired,
   activeFeed: PropTypes.string,
   changeActiveFeed: PropTypes.func.isRequired,
   removeFeed: PropTypes.func.isRequired
 }
 
 SubscriptionsMenu.defaultProps = {
-  subscriptionsList: [],
   activeFeed: ''
 }
 
 const mapState = state => ({
-  subscriptionsList: state.db.subscriptionsList,
-  activeFeed: state.ui.activeFeed
+  subscriptionsList: getSubscriptionsList(state),
+  activeFeed: getActiveFeedId(state)
 })
 
 const subsMenu = connect(mapState, {

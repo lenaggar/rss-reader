@@ -2,11 +2,18 @@ import React from 'react'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 
+import {
+  getActiveFeedId,
+  getActiveFeedObject,
+  isAddFeedLoading,
+  hasAddFeedErrored,
+  getAddFeedErrorMessage
+} from './../reducers'
 import { dismissError } from './../actions/creators'
 
 const FeedItems = ({
-  activeFeed,
-  subscriptions,
+  activeFeedId,
+  activeFeedObject,
   addFeedIsLoading,
   error,
   errorMessage,
@@ -26,9 +33,9 @@ const FeedItems = ({
 
   return (
     <div className="active-feed">
-      {activeFeed ? (
+      {activeFeedId ? (
         <ul>
-          {subscriptions[activeFeed].items.map(item => (
+          {activeFeedObject.items.map(item => (
             <li key={item.id}>
               <h3>
                 <a target="blank" href={item.link}>
@@ -56,20 +63,24 @@ const FeedItems = ({
 }
 
 FeedItems.propTypes = {
-  subscriptions: PropTypes.arrayOf(PropTypes.object).isRequired,
-  activeFeed: PropTypes.string.isRequired,
+  activeFeedId: PropTypes.string.isRequired,
+  activeFeedObject: PropTypes.objectOf(PropTypes.any),
   addFeedIsLoading: PropTypes.bool.isRequired,
   error: PropTypes.bool.isRequired,
   errorMessage: PropTypes.string.isRequired,
   dismissErr: PropTypes.func.isRequired
 }
 
+FeedItems.defaultProps = {
+  activeFeedObject: {}
+}
+
 const mapState = state => ({
-  subscriptions: state.db.subscriptions,
-  activeFeed: state.ui.activeFeed,
-  addFeedIsLoading: state.ui.addFeedIsLoading,
-  error: state.ui.addFeedHasErrored.didntIt,
-  errorMessage: state.ui.addFeedHasErrored.errorMessage
+  activeFeedId: getActiveFeedId(state),
+  activeFeedObject: getActiveFeedObject(state),
+  addFeedIsLoading: isAddFeedLoading(state),
+  error: hasAddFeedErrored(state),
+  errorMessage: getAddFeedErrorMessage(state)
 })
 
 const feedItems = connect(mapState, { dismissErr: dismissError })(FeedItems)
